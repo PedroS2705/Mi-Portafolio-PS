@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo del encabezado */
+header {
+    background: rgba(0, 0, 0);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo de las secciones */
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de la foto de perfil */
+.foto-perfil {
+    width: 250px;
+    height: auto;
+    border-radius: 10%;
+    margin-right: 20px;
+}
+
+/* Contenedor de "Sobre Mí" */
+.contenido-sobre-mi {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo de la información */
+.informacion {
+    flex: 1;
+}
+
+/* Estilo de los proyectos */
+.proyecto {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.imagen-proyecto {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilo de los párrafos dentro de rectángulos morados */
+.rectangulo {
+    background-color: rgba(87, 0, 128, 0.7); /* Morado con 70% de opacidad */
+    color: rgb(0, 0, 0); /* Color del texto */
+    font-family: sans-serif; /* Tipo de texto */
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: rgba(0, 38, 255, 0.859);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0);
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
